@@ -1,0 +1,8 @@
+{
+  "name": "tram-rsu",
+  "app_id": "b6d5a77e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
