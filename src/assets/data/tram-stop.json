@@ -1,0 +1,247 @@
+[
+    {
+        "id": "tramStop1",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 3"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58704290201325, 13.963950968221127]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop2",
+            "distance": "67.1",
+            "duration": "18.6"
+          },
+          "prev": "tramStop12"
+        }
+    },
+    {
+        "id": "tramStop2",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 4"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58643821675071, 13.963809706273693]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop3",
+            "distance": "113.6",
+            "duration": "36.8"
+          },
+          "prev": "tramStop1"
+        }
+    },
+    {
+        "id": "tramStop3",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 5"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.5860211382672, 13.96464331622397]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop4",
+            "distance": "68.6",
+            "duration": "24.2"
+          },
+          "prev": "tramStop2"
+        }
+    },
+    {
+        "id": "tramStop4",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 7"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58586915706536, 13.965242291375432]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop5",
+            "distance": "79.4",
+            "duration": "22.7"
+          },
+          "prev": "tramStop3"
+        }
+    },
+    {
+        "id": "tramStop5",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 9"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58568473671693, 13.965932893234779]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop6",
+            "distance": "227.9",
+            "duration": "69.1"
+          },
+          "prev": "tramStop4"
+        }
+    },
+    {
+        "id": "tramStop6",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 15"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58543649504173, 13.967816702557343]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop7",
+            "distance": "218.6",
+            "duration": "63.3"
+          },
+          "next_alt": {
+            "id": "tramStop8",
+            "distance": "122.3",
+            "duration": "37"
+          },
+          "prev": "tramStop5"
+        }
+    },
+    {
+        "id": "tramStop7",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ตึก 13"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58727968494793, 13.968171770389873]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop8",
+            "distance": "107",
+            "duration": "29.4"
+          },
+          "prev": "tramStop6"
+        }
+    },
+    {
+        "id": "tramStop8",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "สามแยกไปตึก 13"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58653042887244, 13.967751395510689]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop9",
+            "distance": "157.3",
+            "duration": "34.5"
+          },
+          "prev": "tramStop7"
+        }
+    },
+    {
+        "id": "tramStop9",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "แยกตึก 11"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.5868259846435, 13.966373422794746]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop10",
+            "distance": "93.5",
+            "duration": "34.5"
+          },
+          "prev": "tramStop8"
+        }
+    },
+    {
+        "id": "tramStop10",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ฝั่งทางออก"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58731113066682, 13.965734194776317]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop11",
+            "distance": "105.6",
+            "duration": "33.4"
+          },
+          "prev": "tramStop9"
+        }
+    },
+    {
+        "id": "tramStop11",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "ฝั่งทางเข้า"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58754033719754, 13.964809625256322]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop12",
+            "distance": "80.4",
+            "duration": "24"
+          },
+          "prev": "tramStop10"
+        }
+    },
+    {
+        "id": "tramStop12",
+        "type": "Feature",
+        "properties": {
+          "title": "Tram Stop",
+          "description": "สะพานระหว่างตึก2 กับ ตึก3"
+        },
+        "geometry": {
+          "type": "stop",
+          "coordinates": [100.58745749706407, 13.964124703952862]
+        },
+        "nearestStop": {
+          "next": {
+            "id": "tramStop1",
+            "distance": "48",
+            "duration": "13.9"
+          },
+          "prev": "tramStop11"
+        }
+    }                 
+]

@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "801732576030",
+    "firebase_url": "https://tram-rsu.firebaseio.com",
+    "project_id": "tram-rsu",
+    "storage_bucket": "tram-rsu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801732576030:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801732576030-ntjsbuqpsckv8udlfq16u1ditabbl27e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.starter",
+            "certificate_hash": "e6de2424154392e90ae2e3848a7857119ebb5ac5"
+          }
+        },
+        {
+          "client_id": "801732576030-khjdrtbvmr244j03lfu07bv533spom11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801732576030-khjdrtbvmr244j03lfu07bv533spom11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,16 +1,36 @@
 <ion-menu [content]="content">
-  <ion-header>
+  <!-- <ion-header>
     <ion-toolbar>
       <ion-title>Menu</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
   <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
-    </ion-list>
+      <ion-list *ngIf="userInfo" style="background-color: #FFD600"> 
+          <ion-item>
+            <ion-grid>
+              <ion-row justify-content-center>
+                <ion-col col-5 >
+                  <ion-avatar>
+                    <img style="height: 80px; width: 80px;" [src]="userInfo?.picture.data.url ||'https://firebasestorage.googleapis.com/v0/b/tram-rsu.appspot.com/o/imgs%2Favatar.png?alt=media&token=a4e22795-64e2-4770-96a4-11ec4a55d782'">
+                  </ion-avatar>
+                </ion-col>
+              </ion-row>
+              <ion-row justify-content-center>
+                <ion-col col-8 style="text-align: center;">
+                  <h2 style="margin-top: 5px;">{{userInfo?.name}}</h2>
+                </ion-col>
+              </ion-row>
+            </ion-grid>        
+          </ion-item>
+        </ion-list>
+      <div style="margin-left:1rem;">
+        <h2 style="font-size: 1.7rem; margin:0;" menuClose (click)="signOut()">
+          <span><ion-icon name="log-out"></ion-icon></span>
+          <span style="margin-left: 1.5rem;">ออกจากระบบ</span>           
+        </h2>
+      </div>
+      
   </ion-content>
 
 </ion-menu>
